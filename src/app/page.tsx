@@ -33,7 +33,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   );
 }
 
-export function SocialLink({
+function SocialLink({
   icon: Icon,
   ...props
 }: React.ComponentPropsWithoutRef<typeof Link> & {
